@@ -1,0 +1,268 @@
+   Version: 1.1.5 Configuration: production
+
+---
+
+Milos Djordjevic - Revert "Merged PR 230971: Revert 'Revert '780271 - Design review changes for account shipping''"
+This reverts commit 21f33cc9218694d73a188c649c06ac802cdd1824.
+
+---
+
+Milos Djordjevic - Revert "Merged PR 230972: Revert 'Revert '792782 - add alternate payment info modal''"
+This reverts commit f4c4dbe1b23fc24f167bc4bfc7fcadf151ce5616.
+
+---
+
+Milos Djordjevic - Revert "Merged PR 231064: 985286 - Add toasts for shipping section"
+This reverts commit d73674ff32fbb0f3c6e3a679c8e01c201749365c.
+
+---
+
+Milos Djordjevic - Revert "Merged PR 231106: 985286 - Sort default shipping address to top"
+This reverts commit 068ff5542a483be9e9e78fe6627bfbc191ddd3aa.
+
+---
+
+Milos Djordjevic - Revert "Merged PR 231283: 985286 - Update copy"
+This reverts commit 4ddc9d7879dedc4b10781ff86ac21b16e6b1e00e.
+
+---
+
+Milos Djordjevic - Revert "Merged PR 229454: 780280 - Account shipping #2"
+This reverts commit 67ba6d8b47730d4427b32b45ec34a91b470f4c95, reversing
+changes made to 19a43865b3e77136798524fe461985b61bdf8601.
+
+---
+
+Milos Djordjevic - Revert "Merged PR 232080: 780280 - Design review changes"
+This reverts commit 1618d6b2698083c7d8a430a69b14b802dc5c05e5.
+
+---
+
+Milos Djordjevic - Revert "Merged PR 232358: 780280 - Don't show dialog box when save pressed"
+This reverts commit d08f48b79fa267268ff8f7e971bed083603538af.
+
+---
+
+Milos Djordjevic - Revert "Merged PR 232628: 780280 - Fix toasts"
+This reverts commit f8269505e66fa2b444b724ae7daee42a5e939325.
+
+---
+
+Milos Djordjevic - Merged PR 232800: Ticket #780289 visual update on hero
+visual update on hero
+
+Related work items: #780289
+
+---
+
+Milos Djordjevic - Merged PR 232698: upcoming deals color
+update
+
+Related work items: #982908
+
+---
+
+Steve Conner - Merged PR 232628: 780280 - Fix toasts
+Also changed the keyboard type to `email-address` for the login and sign up email textinputs, with approval from @<LANCASTER\drkramer>
+
+Related work items: #780280
+
+---
+
+Milos Djordjevic - Merged PR 232616: color update on flash deal
+color update
+
+Related work items: #982908
+
+---
+
+Steve Conner - Merged PR 232358: 780280 - Don't show dialog box when save pressed
+This problem presented itself because of how we're hooking into navigation listeners to show the dialog box.
+
+Related work items: #780280
+
+---
+
+Seth Lachman - Merged PR 232037: Maestro Checkout Flow
+Generates user for each run that purchases one item and checks out.
+
+Related work items: #960421
+
+---
+
+Seth Lachman - Merged PR 232491: Added loading text for filter bar
+Related work items: #982832
+
+---
+
+Milos Djordjevic - Merged PR 232394: Ticket #993040 - Decode anchors URI
+Decoding values
+
+Related work items: #993040
+
+---
+
+Sir Nicholas - Merged PR 232356: Ticket #784535 - Review Text Update
+- fixed review text showing up plural when only 1 review
+
+Related work items: #784535
+
+---
+
+Drew Kramer - Merged PR 232294: added padding to title
+added padding to title
+
+Related work items: #941475
+
+---
+
+Steve Conner - Merged PR 232080: 780280 - Design review changes
+Related work items: #780280
+
+---
+
+Milos Djordjevic - Merged PR 231984: Ticket #1002573 - sale banner color scheme update
+style update
+
+Related work items: #1002573
+
+---
+
+Milos Djordjevic - Merged PR 231753: Ticket #1002968 - Inactive sale
+Related work items: #1002968
+
+---
+
+Milos Djordjevic - Merged PR 231557: Ticket #941457 -  Accessibility and navigation updates on flash and hero
+updates on flash and hero
+
+Related work items: #941457
+
+---
+
+Milos Djordjevic - Merged PR 231555: Ticket #1002579 - Sale pricing in carousels
+Related work items: #1002579
+
+---
+
+Drew Kramer - Merged PR 231608: Styles to control image sizing + slight hero text tweak
+Styles to control image sizing + slight hero text tweak
+
+Related work items: #941467
+
+---
+
+Milos Djordjevic - Merged PR 231461: Ticket #993040 - Anchors and Event Banner
+event banner and anchors done
+
+Related work items: #993040
+
+---
+
+Steve Conner - Merged PR 229454: 780280 - Account shipping #2
+This finishes up the account shipping section.
+
+Related work items: #780280, #780281
+
+---
+
+Drew Kramer - Merged PR 231463: Tweaked styles for flash deal + event day
+Tweaked styles for flash deal + event day
+
+Related work items: #982908
+
+---
+
+Steve Conner - Merged PR 231283: 985286 - Update copy
+Related work items: #985286
+
+---
+
+Milos Djordjevic - Merged PR 230877: Ticket #982908 - Flash Deal
+Flash Deal
+
+Related work items: #982908
+
+---
+
+Steve Conner - Merged PR 231106: 985286 - Sort default shipping address to top
+Also changed the text on the account screen for the shipping button to say "Managing Addresses" as requested by Linh.
+
+Related work items: #985286
+
+---
+
+Steve Conner - Merged PR 231064: 985286 - Add toasts for shipping section
+for design review changes
+
+Related work items: #985286
+
+---
+
+Seth Lachman - Merged PR 230978: Set most popular to default sort option.
+Set most popular to default sort option.
+
+Related work items: #999737
+
+---
+
+Steve Conner - Merged PR 230972: Revert 'Revert '792782 - add alternate payment info modal''
+Reverts !230408
+
+Reverts !230459
+
+Related work items: #792782
+
+---
+
+Steve Conner - Merged PR 230971: Revert 'Revert '780271 - Design review changes for account shipping''
+spoke with @<LANCASTER\drkramer>  and @<LANCASTER\lta>  about this, it makes sense to get rid of the landing screen and go straight to the addresses since the links on the landing screen don't currently serve a purpose.
+
+Also spoke with @<LANCASTER\lta> about adjusting the left padding on the back arrow in HeaderWithBackButton because it's used in multiple places, she confirmed that it should be further left (16 from the left)
+
+Reverts !230039
+
+Reverts !230458
+
+Related work items: #780271
+
+---
+
+Steve Conner - Merged PR 230970: Revert 'Revert 'Revert 'Revert 'Revert 'Revert '978391 - FlatList back in ViewCart''''''
+Reverts the reverting on ViewCart.
+Also fixed the restrictions being attached to the sticky header.
+Refactored a little bit to make the screen's code easier to understand.
+
+Reverts !227869
+
+Reverts !230103
+
+Reverts !230126
+
+Reverts !230288
+
+Reverts !230407
+
+Reverts !230455
+
+Related work items: #978391
+
+---
+
+Steve Conner - Merged PR 230969: Revert 'Revert '990062 - remove review packaging''
+Reverts !230181
+
+Reverts !230454
+
+Related work items: #990062
+
+---
+
+Milos Djordjevic - Merged PR 230951: Alt text event day images
+added alt text to images
+
+Related work items: #1000192
+
+---
+
+

@@ -1,0 +1,6 @@
+In our latest update, we've made some exciting improvements to enhance your experience with the WebstaurantStore app. 
+We've updated the visual design of the hero and flash deal sections, making them more visually appealing. 
+Additionally, we've made accessibility and navigation updates to the flash and hero sections. 
+We've also added toasts for the shipping section and sorted the default shipping address to the top for easier management. 
+Lastly, we've made various style updates and bug fixes to ensure a smoother shopping experience. 
+Update now and enjoy these new features! Thanks for using the WebstaurantStore app!

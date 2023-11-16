@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "changelog-summarizer"
+version = "0.1.0"
+description = "Summarizes a changelog file into a high level overview for users"
+authors = ["Dan Frederick <dpfrederick@webstaurantstore.com>"]
+license = "AGPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.277"
+python-dotenv = "^1.0.0"
+poethepoet = "^0.24.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+black = "^23.7.0"
+
+[tool.poetry.scripts]
+lint = "local.lint:main"
+
+[tool.poe.tasks]
+lint = "flake8 src"
+
+[tool.ruff]
+line-length = 150
+src = ["src"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
